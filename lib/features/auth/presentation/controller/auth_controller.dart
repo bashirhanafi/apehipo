@@ -71,6 +71,7 @@ class AuthController {
   Map<String, Object> deleteAccount(String email) {
     return authRepository.deleteAccount(email);
   }
+
   Map<String, Map<String, Object?>> viewAllData() {
     return authRepository.viewAllData();
   }
